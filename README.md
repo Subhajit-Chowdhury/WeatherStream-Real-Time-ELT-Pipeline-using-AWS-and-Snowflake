@@ -17,7 +17,6 @@ Welcome to WeatherStream! This project showcases an automated, serverless system
 WeatherStream's architecture is crafted for an efficient, end-to-end journey of real-time weather data. It begins with data extraction from a public API, followed by processing using serverless AWS services, and culminates in loading into Snowflake for powerful analytics. The diagram below visually outlines this entire process:
 
 ![WeatherStream Architecture Diagram](AWS2Snowflake.jpg)
-
 *The complete data pathway: API → DynamoDB → Lambda → S3 → Snowpipe → Snowflake.*
 
 ---
@@ -95,4 +94,4 @@ Developed with dedication by **Subhajit Chowdhury © 2025**.
 
 ---
 
-We hope this provides a clear and engaging overview of WeatherStream. Dive in and explore the power of real-time data!
+Hope this provides a clear and engaging overview of WeatherStream. Dive in and explore the power of real-time data!
